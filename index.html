@@ -1,0 +1,30 @@
+<html>
+<head>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.2.1/typeahead.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style>
+<div class="container">
+	<div class="panel panel-default">
+  <div class="panel-body">
+  	<b> Authors selected: </b>
+  	<ul id="authorlist"></ul>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-body">
+  	<b> Books selected: </b>
+  	<ul id="booklist"></ul>
+  </div>
+</div>
+<div id="multiple-datasets">
+  <input class="typeahead" type="text" placeholder="Search for Books and Authors">
+</div>
+</div>
+<script src="search.js"></script>
+</body>
+</html>
